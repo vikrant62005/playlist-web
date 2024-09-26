@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
+
+body{
+    background-color: bisque;
+}
+
+.container1{
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 60px;
+    background-color: black;
+    color: white;
+    font-family: "Fredoka", sans-serif;
+    
+}
+
+.container2{
+    border: 3px solid gray;
+    height:80vh;
+    width:80vh;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    background-color:antiquewhite;
+    color:white;
+    background-image: url(spidey.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+h2{
+    text-align: center;
+   
+}
+
+i{
+    font-size: 80px;
+    color:white;
+    align-self: center;
+    padding-top: 300px;
+    cursor: pointer;
+}
+
+.music{
+    height: 90px;
+    width: 90px;
+
+}
+#play,#pause{
+    display:none;
+   
+   
+}
+#play.show, #pause.show {
+    display: inline-block;
+}
+
+#gif1.display{
+display: none;
+}
+#gif1{
+    display: inline-block;
+    position: relative;
+    left: 20px;
+    bottom: 100px;
+}
+
+input{
+    cursor: pointer;
+}
+
+#range2{
+    display:none;
+}
